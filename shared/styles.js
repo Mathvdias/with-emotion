@@ -6,12 +6,11 @@ export const globalStyles = (
     styles={css`
       html,
       body {
-        padding: 3rem 1rem;
         margin: 0;
-        background: papayawhip;
-        min-height: 100%;
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 24px;
+        padding: 0;
+       -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
       }
     `}
   />
